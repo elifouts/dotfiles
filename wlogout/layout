@@ -1,0 +1,30 @@
+{
+    "label" : "lock",
+    "action" : "swaylock",
+    "keybind" : "l"
+}
+{
+    "label" : "hibernate",
+    "action" : "systemctl hibernate",
+    "keybind" : "h"
+}
+{
+    "label" : "Exit",
+    "action" : "pkill Hyprland",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "keybind" : "s"
+}
+{
+    "label" : "htop",
+    "action" : "kitty htop",
+    "keybind" : "t"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "keybind" : "r"
+}
